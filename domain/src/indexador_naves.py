@@ -3,13 +3,6 @@ def indexador_naves():
     def siguiente_nave():
         nonlocal numero
         numero += 1
-        return "nave" + str(numero)
+        return "nave" + str(numero) + ".md"
     return siguiente_nave
 siguiente = (indexador_naves())
-print(siguiente())
-print(siguiente())
-print(siguiente())
-print(siguiente())
-print(siguiente())
-
-        
