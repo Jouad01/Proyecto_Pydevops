@@ -1,4 +1,4 @@
-from base_de_datos_ficticia import naves
+from ..test.base_de_datos_ficticia import naves
 from indexador_naves import indexador_naves
 import os
 
