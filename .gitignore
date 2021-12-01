@@ -1,1 +1,4 @@
-/venv
+venv/
+__pycache__/
+proyecto_dual/
+posts/
