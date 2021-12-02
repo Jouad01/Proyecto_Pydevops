@@ -10,7 +10,7 @@ color: blanco y rojo
 
 plazas: 2
 
-# características
+# caracteristicas
 - arma laser
 - velocidad hiperespacial
 - comida gratis

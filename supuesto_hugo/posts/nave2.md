@@ -1,6 +1,6 @@
 modelo: destructor
 
-marca: revelde
+marca: rebelde
 
 gama: barata
 
@@ -10,6 +10,6 @@ color: negro y rojo
 
 plazas: 14
 
-# características
+# caracteristicas
 - huevos fritos
 - comida gratis
