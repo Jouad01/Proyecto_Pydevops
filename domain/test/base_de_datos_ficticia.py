@@ -20,13 +20,13 @@ nave2 = {
     }
 
 nave3 = {
-    "modelo" : "bicho",
-    "marca" : "tractor",
+    "modelo" : "fenix",
+    "marca" : "veldin",
     "gama" : "barata",
-    "tasa": 10,
-    "color" : "azul y amarillo",
-    "plazas" : "1",
-    "caracteristicas": ["astro","portugues"]
+    "tasa": 155,
+    "color" : "azul y gris",
+    "plazas" : "2",
+    "caracteristicas": ["astro","propulsor"]
     }
 
 

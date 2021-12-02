@@ -23,4 +23,5 @@ def insert_list(file, nave, element):
 def insert_element(nave, file, element):
     file.write(element + ": " + str(nave[element]) + os.linesep + os.linesep)
 
+# Llamamos a la funcion creadorMD 
 creadorMD(naves)
