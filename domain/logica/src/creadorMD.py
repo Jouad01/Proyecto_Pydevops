@@ -18,7 +18,7 @@ def creadorMD(naves):
 def insert_list(file, nave, element):
     file.write("# " + element + os.linesep)
     for characteristic in nave[element]:
-        file.write("- " + characteristic + os.linesep)
+        file.write("* " + characteristic + os.linesep)
     file.write(os.linesep)
 
 def insert_element(nave, file, element):
