@@ -1,7 +1,7 @@
 import sys
 sys.path.append(".")
-from domain.test.base_de_datos_ficticia import naves
-from domain.src.indexador_naves import indexador_naves
+from domain.logica.test.base_de_datos_ficticia import naves
+from domain.logica.src.indexador_naves import indexador_naves
 import os
 
 def creadorMD(naves):
