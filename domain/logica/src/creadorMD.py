@@ -1,7 +1,7 @@
 import sys
 sys.path.append(".")
-from domain.test.base_de_datos_ficticia import naves
-from domain.src.indexador_naves import indexador_naves
+from domain.logica.test.base_de_datos_ficticia import naves
+from domain.logica.src.indexador_naves import indexador_naves
 import os
 
 def creadorMD(naves):
@@ -19,9 +19,12 @@ def insert_list(file, nave, element):
     file.write("# " + element + os.linesep)
     for characteristic in nave[element]:
         file.write("- " + characteristic + os.linesep)
+    file.write(os.linesep)
 
 def insert_element(nave, file, element):
-    file.write(element + ": " + str(nave[element]) + os.linesep + os.linesep)
+    if element[0:3] == "img":
+        file.write("![](" + str(nave[element] + ")") + os.linesep + os.linesep)
+    else:
+        file.write(element + ": " + str(nave[element]) + os.linesep + os.linesep)
 
-# Llamamos a la funcion creadorMD 
 creadorMD(naves)
