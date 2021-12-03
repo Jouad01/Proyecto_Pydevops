@@ -19,8 +19,12 @@ def insert_list(file, nave, element):
     file.write("# " + element + os.linesep)
     for characteristic in nave[element]:
         file.write("- " + characteristic + os.linesep)
+    file.write(os.linesep)
 
 def insert_element(nave, file, element):
-    file.write(element + ": " + str(nave[element]) + os.linesep + os.linesep)
+    if element[0:3] == "img":
+        file.write("![](" + str(nave[element] + ")") + os.linesep + os.linesep)
+    else:
+        file.write(element + ": " + str(nave[element]) + os.linesep + os.linesep)
 
 creadorMD(naves)
