@@ -1,19 +1,19 @@
-modelo: V-Wing
+modelo: xwing
 
-marca: República
+marca: dominio imperial
 
-gama: Baja
+gama: lujo
 
 tasa: 15
 
-color: Blanco
+color: blanco y rojo
 
-plazas: 1
+plazas: 2
 
-# caracteristicas
-* Torpedos
-* Cabina
-* Hipervelocidad
+# características
+* arma laser
+* velocidad hiperespacial
+* comida gratis
 
 ![](https://static.wikia.nocookie.net/esstarwars/images/a/a9/V-wing_BF2.png/revision/latest/scale-to-width-down/1000?cb=20171116021944)
 

@@ -1,8 +1,11 @@
+# En caso de un SO Windows hay que importar el certifi
 import certifi
 from pymongo import MongoClient
 
+# Función para conectarnos con nuestra BBDD
 def conector_cluster():
     
+    # Importante tener en cuenta para Windows el certifi
     ca = certifi.where()
     client = MongoClient('mongodb+srv://devops:12345@proyectopydevops.gk2qp.mongodb.net/?retryWrites=true&w=majority', tlsCAFile=ca)
 

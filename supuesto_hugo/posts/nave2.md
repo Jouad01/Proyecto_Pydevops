@@ -1,21 +1,18 @@
-modelo: Imperial Shuttle
+modelo: destructor
 
-marca: Imperio Galáctico
+marca: revelde
 
-gama: Alta
+gama: barata
 
-tasa: 50
+tasa: 105
 
-color: Gris
+color: negro y rojo
 
-plazas: 6
+plazas: 14
 
-# caracteristicas
-* Cañones de iones
-* Escudos
-* Hipervelocidad
-* Patas extensibles
-* Puente de mando
+# características
+* huevos fritos
+* comida gratis
 
-![](https://lumiere-a.akamaihd.net/v1/images/veh_ia_1752_040381b2.jpeg?region=0%2C70%2C1280%2C720&width=768)
+![](https://i.ytimg.com/vi/FU_x3rLGrz0/maxresdefault.jpg)
 
