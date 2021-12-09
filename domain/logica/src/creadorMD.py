@@ -6,8 +6,19 @@ import os
 
 def creadorMD(naves):
     siguiente_nave = indexador_naves()
+
     for nave in naves:
-        file = open("supuesto_hugo/posts/" + siguiente_nave(), "w")
+
+        file = open("StarWays/content/post/" + siguiente_nave(), "w")
+        file.write("+++" + os.linesep)
+        file.write("author = " + "'BobaFet'" + os.linesep)
+        file.write("title = " + "'" + nave['modelo'] + "'" + os.linesep)
+        file.write("date = '17-08-2002'" + os.linesep)
+        file.write("description = 'Brand new x-wing'" + os.linesep)
+        file.write("feature_image = '" + nave["img_url"] + "'" + os.linesep)
+        file.write("+++" + os.linesep)
+        file.write("<!--more--> " + os.linesep)
+
         for element in nave:
             if isinstance(nave[element], list):
                 insert_list(file, nave, element)
@@ -23,7 +34,7 @@ def insert_list(file, nave, element):
 
 def insert_element(nave, file, element):
     if element[0:3] == "img":
-        file.write("![](" + str(nave[element] + ")") + os.linesep + os.linesep)
+        ""
     else:
         file.write(element + ": " + str(nave[element]) + os.linesep + os.linesep)
 
