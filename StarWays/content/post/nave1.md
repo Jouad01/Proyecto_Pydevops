@@ -2,8 +2,7 @@
 author = 'BobaFet'
 title = 'V-Wing'
 date = '17-08-2002'
-description = 'Brand new x-wing'
-feature_image = 'https://static.wikia.nocookie.net/esstarwars/images/a/a9/V-wing_BF2.png/revision/latest/scale-to-width-down/1000?cb=20171116021944'
+feature_image = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNtg6rtj4UdVA3A6lwZAwXQcqZ6IEIQKgYAQ&usqp=CAU'
 +++
 <!--more--> 
 modelo: V-Wing

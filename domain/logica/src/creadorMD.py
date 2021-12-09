@@ -14,7 +14,6 @@ def creadorMD(naves):
         file.write("author = " + "'BobaFet'" + os.linesep)
         file.write("title = " + "'" + nave['modelo'] + "'" + os.linesep)
         file.write("date = '17-08-2002'" + os.linesep)
-        file.write("description = 'Brand new x-wing'" + os.linesep)
         file.write("feature_image = '" + nave["img_url"] + "'" + os.linesep)
         file.write("+++" + os.linesep)
         file.write("<!--more--> " + os.linesep)

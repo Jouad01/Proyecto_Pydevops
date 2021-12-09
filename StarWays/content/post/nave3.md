@@ -2,7 +2,6 @@
 author = 'BobaFet'
 title = 'GR-75'
 date = '17-08-2002'
-description = 'Brand new x-wing'
 feature_image = 'https://lumiere-a.akamaihd.net/v1/images/gr-75-medium-transport_cd04862d.jpeg?region=15%2C0%2C770%2C433&width=768'
 +++
 <!--more--> 
