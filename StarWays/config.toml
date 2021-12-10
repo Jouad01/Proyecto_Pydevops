@@ -1,6 +1,6 @@
 baseURL = "https://gohugo.io/"
 title = "StarWays"
-author = "Arturo & Hugo"
+author = "Arturo & Jouad"
 copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
 paginate = 3
 languageCode = "en"
@@ -11,9 +11,8 @@ footnoteReturnLinkContents = "^"
 theme = "casper3"
 
 [params]
-  facebook = "https://facebook.com"
   twitter = "https://twitter.com"
-  github = "https://github.com/jonathanjanssens"
+  github = "https://github.com/Jouad01/Proyecto_Pydevops"
   description = "La mejor gama de transportes espaciales"
   mainSections = ["post"]
 
@@ -25,7 +24,7 @@ theme = "casper3"
     weight = 10
   [[menu.main]]
     identifier = "/image-credit/"
-    name = "OKAY"
+    name = "Inserte contenido"
     url = "/image-credit/"
     weight = 20
   [[menu.main]]
