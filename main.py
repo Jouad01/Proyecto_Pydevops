@@ -1,4 +1,5 @@
 # Inserte comentarios
+
 import sys
 sys.path.append(".")
 from domain.logica.src.creadorMD import creadorMD
@@ -14,4 +15,4 @@ def proyecto_pydevops():
     naves = limpiar_BBDD(base_de_datos)
     creadorMD(naves)
 
-# print()
+#proyecto_pydevops()
