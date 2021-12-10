@@ -1,5 +1,5 @@
 +++
-title = "Off"
+title = "Productos agotados"
 description = "Giving credit to the images used in the demo"
 summary = "Thank you to the authors of these images used in this theme demo"
 date = "2019-11-03"
