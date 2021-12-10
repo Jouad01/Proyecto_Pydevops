@@ -1,19 +1,29 @@
 # Proyecto_Pydevops 
 
->Descripcion
+>En este repositorio se encuentra nuestro proyecto pydevops, con el cual podrás tener
+un sitio web generado automáticamente por Hugo.
 
 ## Tabla de contenidos
 
 1. [Introducción](#Introducción)
 1. [Metodologías](#Metodologías)
-1. [Tecnologías usadas](#tecnologías-usadas)
 1. [Análisis](#Análisis)
 1. [Diseño](#Diseño)
 1. [Implementación](#Implementación)
+1. [Tecnologías usadas](#tecnologías-usadas)
 1. [Pruebas](#Pruebas)
 1. [Dificultades](#Dificultades)
 1. [Comparación temporal](#Comparación-temporal)
 1. [Licencia](#licencia)
+
+--- 
+
+## Introducción
+
+Este proyecto ha sido fruto del trabajo del primer trimeste de _Formación Profesional de Desarrollo Web_. El objetivo 
+
+**[⬆ back to top](#tabla-de-contenidos)**
+
 
 ## Licencia
 
@@ -38,3 +48,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+# Página Hugo
+
+Esta página se ha creado usando el framework [Hugo](https://gohugo.io/) y con la ayuda de una de sus plantillas [Hugo Themes Showcase](https://themes.gohugo.io/).
