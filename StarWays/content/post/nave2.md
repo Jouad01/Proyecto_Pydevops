@@ -1,44 +1,26 @@
 +++
 author = 'BobaFet'
-
-title = 'destructor'
-
+title = 'Imperial Shuttle'
 date = '17-08-2002'
-
-feature_image = 'https://i.ytimg.com/vi/FU_x3rLGrz0/maxresdefault.jpg'
-
+feature_image = 'https://lumiere-a.akamaihd.net/v1/images/veh_ia_1752_040381b2.jpeg?region=0%2C70%2C1280%2C720&width=768'
 +++
-
 <!--more--> 
+modelo: Imperial Shuttle
 
-modelo: destructor
+marca: Imperio Galáctico
 
+gama: Alta
 
+tasa: 50
 
-marca: revelde
+color: Gris
 
+plazas: 6
 
-gama: barata
-
-
-
-tasa: 105
-
-
-
-color: negro y rojo
-
-
-
-plazas: 14
-
-
-
-# caracter�sticas
-
-* huevos fritos
-
-* comida gratis
-
-
+# caracteristicas
+* Cañones de iones
+* Escudos
+* Hipervelocidad
+* Patas extensibles
+* Puente de mando
 

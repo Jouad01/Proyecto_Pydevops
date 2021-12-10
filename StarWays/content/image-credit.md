@@ -1,9 +1,9 @@
 +++
 title = "Productos agotados"
-description = "Giving credit to the images used in the demo"
-summary = "Thank you to the authors of these images used in this theme demo"
-date = "2019-11-03"
-author = "Jonathan Janssens"
+description = "Hugo, the world’s fastest framework for building websites"
+date = "2021-12-10" 
+author = "Proyecto_Pydevops"
+feature_image = ""
 +++
 
 ![Topography pattern](/images/topography.svg)

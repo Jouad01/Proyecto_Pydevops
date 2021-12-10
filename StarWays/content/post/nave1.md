@@ -1,46 +1,24 @@
 +++
 author = 'BobaFet'
-
-title = 'xwing'
-
+title = 'V-Wing'
 date = '17-08-2002'
-
-feature_image = 'https://static.wikia.nocookie.net/esstarwars/images/a/a9/V-wing_BF2.png/revision/latest/scale-to-width-down/1000?cb=20171116021944'
-
+feature_image = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNtg6rtj4UdVA3A6lwZAwXQcqZ6IEIQKgYAQ&usqp=CAU'
 +++
-
 <!--more--> 
+modelo: V-Wing
 
-modelo: xwing
+marca: República
 
-
-
-marca: dominio imperial
-
-
-gama: lujo
-
-
+gama: Baja
 
 tasa: 15
 
+color: Blanco
 
+plazas: 1
 
-color: blanco y rojo
-
-
-
-plazas: 2
-
-
-
-# caracter�sticas
-
-* arma laser
-
-* velocidad hiperespacial
-
-* comida gratis
-
-
+# caracteristicas
+* Torpedos
+* Cabina
+* Hipervelocidad
 

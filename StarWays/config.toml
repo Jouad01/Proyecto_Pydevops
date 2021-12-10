@@ -21,13 +21,24 @@ theme = "casper3"
   [[menu.main]]
     identifier = "Sobre nosotros"
     name = "Sobre nosotros"
-    url = "/about/"
+    url = "/sobre_nosotros/"
     weight = 10
   [[menu.main]]
     identifier = "/image-credit/"
     name = "OKAY"
     url = "/image-credit/"
     weight = 20
+  [[menu.main]]
+    identifier = "/Vender naves/"
+    name = "Vender"
+    url = "/vende_tu_nave/"
+    weight = 20
+  [[menu.main]]
+    identifier = "/Guía/"
+    name = "Guía"
+    url = "/guia/"
+    weight = 20
+
 
 
 [taxonomies]

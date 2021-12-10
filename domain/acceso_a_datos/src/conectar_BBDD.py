@@ -5,7 +5,7 @@ from pymongo import MongoClient
 # Función para conectarnos con nuestra BBDD
 def conector_cluster():
     
-    # Importante tener en cuenta para Windows el 'ce = certifi.where()'
+    # Importante tener en cuenta para Windows el 'ca = certifi.where()'
     ca = certifi.where()
     # Al final del enlace, para sistemas windows, hay que agregar 'tlsCAFile=ca'
     client = MongoClient('mongodb+srv://devops:12345@proyectopydevops.gk2qp.mongodb.net/?retryWrites=true&w=majority', tlsCAFile=ca)
