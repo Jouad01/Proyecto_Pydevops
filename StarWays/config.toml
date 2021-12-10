@@ -1,5 +1,5 @@
 baseURL = "https://gohugo.io/"
-title = "Hugo Themes"
+title = "StarWays"
 author = "Steve Francia"
 copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
 paginate = 3
@@ -14,7 +14,7 @@ theme = "casper3"
   facebook = "https://facebook.com"
   twitter = "https://twitter.com"
   github = "https://github.com/jonathanjanssens"
-  description = "Just a demo site for the Casper3 theme ported to Hugo"
+  description = "La tienda de compra y venta de naves intergaláctica"
   mainSections = ["post"]
 
 [menu]
@@ -28,6 +28,11 @@ theme = "casper3"
     name = "OKAY"
     url = "/image-credit/"
     weight = 20
+  [[menu.main]]
+    identifier = "github-repo-theme"
+    name = "stuff"
+    url = "/stuff/"
+    weight = 30
 
 
 [taxonomies]
