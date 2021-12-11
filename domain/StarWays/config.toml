@@ -1,7 +1,7 @@
 baseURL = "https://gohugo.io/"
 title = "StarWays"
 author = "Steve Francia"
-copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+copyright = "Copyright (c) 2021 Jouad El Ouardi & Arturo Garrido"
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -13,8 +13,13 @@ theme = "casper3"
 [params]
   facebook = "https://facebook.com"
   twitter = "https://twitter.com"
+<<<<<<< HEAD:domain/StarWays/config.toml
+  github = "https://github.com/Jouad01/Proyecto_Pydevops"
+  description = "La mejor pagina de compraventa de naves intergalactica"
+=======
   github = "https://github.com/jonathanjanssens"
   description = "La tienda de compra y venta de naves intergaláctica"
+>>>>>>> 668b06848ee14272b635ae48957e216b8b0182ea:StarWays/config.toml
   mainSections = ["post"]
 
 [menu]
@@ -25,8 +30,8 @@ theme = "casper3"
     weight = 10
   [[menu.main]]
     identifier = "image-credit"
-    name = "OKAY"
-    url = "/image-credit/"
+    name = "Agregue su Nave"
+    url = "/vender/"
     weight = 20
   [[menu.main]]
     identifier = "github-repo-theme"

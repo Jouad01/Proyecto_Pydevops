@@ -5,8 +5,7 @@ from domain.logica.src.indexador_naves import indexador_naves
 import os
 
 def creadorMD(naves, nueva_linea = "\r"):
-    siguiente_nave = indexador_naves()
-
+    siguiente_nave = indexador_naves() 
     for nave in naves:
 
         file = open("StarWays/content/post/" + siguiente_nave(), "w")
