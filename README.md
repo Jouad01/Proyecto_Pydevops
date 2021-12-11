@@ -82,7 +82,7 @@ El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y c
 - Python 3
 - CSS3
 - HTML5
-- MongoAtlas
+- MongoAtla
 - Markdown 
 - os
 - Hugo
@@ -104,6 +104,8 @@ _Más adelante_
 
 _Más adelante_
 
+**[⬆ back to top](#tabla-de-contenidos)**
+
 ---
 
 ## Comparación temporal
@@ -111,6 +113,9 @@ _Más adelante_
 - Estimacion inicial por tareas
 - Estimación real (Clickify)
 
+**[⬆ back to top](#tabla-de-contenidos)**
+
+---
 
 ## Licencia
 
