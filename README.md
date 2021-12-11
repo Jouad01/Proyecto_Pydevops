@@ -1,7 +1,10 @@
 # Proyecto_Pydevops 
 
->En este repositorio se encuentra nuestro proyecto pydevops, con el cual podrás tener
-un sitio web generado automáticamente por Hugo.
+>En este repositorio se encuentra nuestro proyecto pydevops, que ha sido fruto del trabajo del primer trimeste de _Formación Profesional de Desarrollo Web_.
+
+[![python version](https://img.shields.io/badge/python-v3.9-blue)](https://www.python.org/downloads/)
+[![status application](https://img.shields.io/badge/status-stable-brightgreen)](https://github.com/Jouad01/Proyecto_Pydevops)
+
 
 ## Tabla de contenidos
 
@@ -20,10 +23,77 @@ un sitio web generado automáticamente por Hugo.
 
 ## Introducción
 
-Este proyecto ha sido fruto del trabajo del primer trimeste de _Formación Profesional de Desarrollo Web_. El objetivo 
+La premisa principal de este proyecto es desarrollar una aplicación Python que sea capaz de extraer los datos de **MongoAtlas** y, teniendo un esquema de los documentos **JSON**, convertirlos a **Markdown**.
+De esa forma **Hugo**, un generador de sitios estáticos, leerá los ficheros Markdown y los convertirá en documentos HTML para su página web.
 
 **[⬆ back to top](#tabla-de-contenidos)**
 
+---
+
+## Metodologías
+
+La metodología más cercana al procedimiento que se ha seguido en este trabajo vendría siendo la **metodología Scrum** ya que siendo una metodología ágil, tiene como finalidad la entrega de valor en períodos cortos de tiempo y estamos más familiarizada con ella. 
+
+Hemos contado con un Product Owner y haciendo uso de _sprints_ van respaldadas dos herramientas claves en el nuestro Scrum: _el product backlog_ y _sprint backlog_.
+
+ - El **Product Backlog**, viene siendo las tareas que engloba todo el proyecto, una biblioteca que nos incluye todas las tareas que debemos realizar con el tiempo de desarrollo estimado. Las tareas que están más arriba deben de ser las de mayor prioridad.
+
+- El **Sprint Backlog** es el grupo de tareas del product backlog que el equipo de desarrollo elige en el sprint planning junto con el plan para poder desarrollarlas. 
+El sprint planning no cambia durante el sprint, solo cambia el plan para poder desarrollarlas.
+
+**[⬆ back to top](#tabla-de-contenidos)**
+
+---
+
+## Análisis
+
+Con el software completo desarrollado, el usuario, como una de las partes interesadas, podrá añadir, actualizar o eliminar un ítem de la base de datos y solo habrá que lanzar este sistema y la web se actualizará de manera automática con los nuevos ítems.
+
+Una vez acordado el esquema JSON que se aplicará a la BBDD, el tutor tendrá acceso a esa BBDD para poder hacer un CRUD sobre el stock de items.
+
+![](Images/Screenshot_1.png)
+
+
+###  "Arquitectura de la aplicacion y tecnologias utilizadas"
+
+**[⬆ back to top](#tabla-de-contenidos)**
+
+--- 
+## Diseño
+###  Diagrama de componentes
+
+
+Teniendo el esquema JSON y el scrapping del tutor en la BBDD, desde Python convertimos esos documentos en Markdown para que Hugo pueda pasarlos a HTML en el Site que genere automáticamente.
+
+![](Images/Screenshot_2.png)
+
+
+**[⬆ back to top](#tabla-de-contenidos)**
+
+---
+
+## Implementación
+
+### Tencologías utilizadas
+
+- Python 3
+- CSS3
+- HTML5
+- Mongo DB
+- Markdown
+- os
+- Hugo
+
+
+**[⬆ back to top](#tabla-de-contenidos)**
+
+---
+
+## Pruebas
+
+_Más adelante_
+
+**[⬆ back to top](#tabla-de-contenidos)**
 
 ## Licencia
 
