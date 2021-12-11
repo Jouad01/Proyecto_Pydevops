@@ -13,7 +13,6 @@
 1. [Análisis](#Análisis)
 1. [Diseño](#Diseño)
 1. [Implementación](#Implementación)
-1. [Tecnologías usadas](#tecnologías-usadas)
 1. [Pruebas](#Pruebas)
 1. [Dificultades](#Dificultades)
 1. [Comparación temporal](#Comparación-temporal)
@@ -54,8 +53,6 @@ Una vez acordado el esquema JSON que se aplicará a la BBDD, el tutor tendrá ac
 ![](Images/Screenshot_1.png)
 
 
-###  "Arquitectura de la aplicacion y tecnologias utilizadas"
-
 **[⬆ back to top](#tabla-de-contenidos)**
 
 --- 
@@ -74,13 +71,19 @@ Teniendo el esquema JSON y el scrapping del tutor en la BBDD, desde Python conve
 
 ## Implementación
 
+### Arquitectura de la aplicación
+
+
+El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y con la ayuda de una de sus plantillas [Hugo Themes Showcase](https://themes.gohugo.io/).
+
+
 ### Tencologías utilizadas
 
 - Python 3
 - CSS3
 - HTML5
-- Mongo DB
-- Markdown
+- MongoAtlas
+- Markdown 
 - os
 - Hugo
 
@@ -94,6 +97,20 @@ Teniendo el esquema JSON y el scrapping del tutor en la BBDD, desde Python conve
 _Más adelante_
 
 **[⬆ back to top](#tabla-de-contenidos)**
+
+---
+
+## Dificultades
+
+_Más adelante_
+
+---
+
+## Comparación temporal
+
+- Estimacion inicial por tareas
+- Estimación real (Clickify)
+
 
 ## Licencia
 
@@ -120,6 +137,3 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-# Página Hugo
-
-Esta página se ha creado usando el framework [Hugo](https://gohugo.io/) y con la ayuda de una de sus plantillas [Hugo Themes Showcase](https://themes.gohugo.io/).
