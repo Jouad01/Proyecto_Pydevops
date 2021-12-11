@@ -50,7 +50,7 @@ Con el software completo desarrollado, el usuario, como una de las partes intere
 
 Una vez acordado el esquema JSON que se aplicará a la BBDD, el tutor tendrá acceso a esa BBDD para poder hacer un CRUD sobre el stock de items.
 
-![](Images/Screenshot_1.png)
+![](images/Screenshot_1.png)
 
 
 **[⬆ back to top](#tabla-de-contenidos)**
@@ -62,7 +62,7 @@ Una vez acordado el esquema JSON que se aplicará a la BBDD, el tutor tendrá ac
 
 Teniendo el esquema JSON y el scrapping del tutor en la BBDD, desde Python convertimos esos documentos en Markdown para que Hugo pueda pasarlos a HTML en el Site que genere automáticamente.
 
-![](Images/Screenshot_2.png)
+![](images/Screenshot_2.png)
 
 
 **[⬆ back to top](#tabla-de-contenidos)**
