@@ -1,8 +1,8 @@
-# Guía página Hugo
+# hugoBasicExample
 
-Esta página se ha creado usando el framework [Hugo](https://gohugo.io/) y con la ayuda de una de sus plantillas [Hugo Themes Showcase](https://themes.gohugo.io/).
+This repository offers an example site for [Hugo](https://gohugo.io/) and also it provides the default content for demos hosted on the [Hugo Themes Showcase](https://themes.gohugo.io/).
 
-# Proceso
+# Using
 
 1. [Install Hugo](https://gohugo.io/overview/installing/)
 2. Clone this repository

@@ -1,4 +1,5 @@
 +++
-author = "Proyecto_Pydevops"
-feature_image = "/images/topography.svg"
+author = "Hugo Authors"
+feature_image = "/images/fondo.jpg"
+alt = "espera"
 +++

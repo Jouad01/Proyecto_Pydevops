@@ -8,14 +8,14 @@ import os
 # Tres funciones para crear automáticamente el markdown como nosotros queremos
 
 # Con esta se crea el formato markdown
-def creadorMD(naves, nueva_linea="\n"):
+def creadorMD(naves):
     siguiente_nave = indexador_naves()
     for nave in naves:
         # Especificamos como queremos que sea nuestro hugo generado 
                     # Usamos el encoding para que el markdown lea los caracters diferentes
         file = open("StarWays/content/post/" + siguiente_nave(), "w", encoding="utf-8")
         file.write("+++" + "\n")
-        file.write("author = " + "'BobaFet'" + "\n" + nueva_linea)
+        file.write("author = " + "'BobaFet'" + "\n")
         file.write("title = " + "'" + nave['modelo'] + "'" + "\n")
         file.write("date = '17-08-2002'" + "\n")
         file.write("feature_image = '" + nave["img_url"] + "'" + "\n")

@@ -12,7 +12,7 @@
 1. [Metodologías](#Metodologías)
 1. [Análisis](#Análisis)
 1. [Diseño](#Diseño)
-1. [Implementación](#Implementación)
+1. [Arquitectura de la aplicacion](#Arquitectura-aplicacion)
 1. [Pruebas](#Pruebas)
 1. [Dificultades](#Dificultades)
 1. [Comparación temporal](#Comparación-temporal)
@@ -57,8 +57,6 @@ Una vez acordado el esquema JSON que se aplicará a la BBDD, el tutor tendrá ac
 
 --- 
 ## Diseño
-###  Diagrama de componentes
-
 
 Teniendo el esquema JSON y el scrapping del tutor en la BBDD, desde Python convertimos esos documentos en Markdown para que Hugo pueda pasarlos a HTML en el Site que genere automáticamente.
 
@@ -69,9 +67,10 @@ Teniendo el esquema JSON y el scrapping del tutor en la BBDD, desde Python conve
 
 ---
 
-## Implementación
+# Arquitectura de la aplicación
 
-### Arquitectura de la aplicación
+El objetivo de este proyecto es desarrollar una aplicación Python que sea capaz de extraer los datos de **MongoAtlas** y, teniendo un esquema de los documentos **JSON**, convertirlos a **Markdown**.
+De esa forma **Hugo**, un generador de sitios estáticos, leerá los ficheros Markdown y los convertirá en documentos HTML para su página web.
 
 
 El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y con la ayuda de una de sus plantillas [Hugo Themes Showcase](https://themes.gohugo.io/).
@@ -84,12 +83,10 @@ El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y c
 - HTML5
 - MongoAtlas
 - Markdown 
-- os
 - Hugo
+- os
+- Pymongo
 
-Falta _Backend_
-
-Falta _Frondend_
 
 
 **[⬆ back to top](#tabla-de-contenidos)**
