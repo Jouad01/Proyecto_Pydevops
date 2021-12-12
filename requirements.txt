@@ -1,2 +1,3 @@
 pytest==6.2.5
-pymongo==4.0
+pymongo==4.0.1
+dnspython2.1.0

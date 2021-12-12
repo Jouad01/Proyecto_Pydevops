@@ -7,19 +7,14 @@ languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
-
+authorAvatar = "static/images/profile_image.jpeg"
 theme = "casper3"
 
 [params]
   facebook = "https://facebook.com"
   twitter = "https://twitter.com"
-<<<<<<< HEAD:domain/StarWays/config.toml
   github = "https://github.com/Jouad01/Proyecto_Pydevops"
-  description = "La mejor pagina de compraventa de naves intergalactica"
-=======
-  github = "https://github.com/jonathanjanssens"
-  description = "La tienda de compra y venta de naves intergaláctica"
->>>>>>> 668b06848ee14272b635ae48957e216b8b0182ea:StarWays/config.toml
+  description = "Encuentre la nave que necesita, y desagase de la que ya no necesite"
   mainSections = ["post"]
 
 [menu]
@@ -34,10 +29,20 @@ theme = "casper3"
     url = "/vender/"
     weight = 20
   [[menu.main]]
-    identifier = "github-repo-theme"
-    name = "stuff"
-    url = "/stuff/"
+    identifier = "naves_baratas"
+    name = "Gama baja"
+    url = "/tags/gama-baja/"
     weight = 30
+  [[menu.main]]
+    identifier = "naves_asequibles"
+    name = "Gama media"
+    url = "/tags/gama-media/"
+    weight = 40
+  [[menu.main]]
+    identifier = "naves_de_lujo"
+    name = "Gama alta"
+    url = "/tags/gama-alta/"
+    weight = 50
 
 
 [taxonomies]
