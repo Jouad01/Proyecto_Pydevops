@@ -121,8 +121,7 @@ _Más adelante_
 
 - Estimación real (Clockify)
 
-https://clockify.me/shared/61b66a730a923f0f3b447885
-
+https://clockify.me/shared/61b66dbc33d0bb38a95fb19b
 
 
 - Estimacion inicial por tareas
