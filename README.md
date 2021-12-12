@@ -119,8 +119,19 @@ _Más adelante_
 
 ## Comparación temporal
 
-- Estimacion inicial por tareas
 - Estimación real (Clockify)
+
+1. https://clockify.me/shared/61b66dbc33d0bb38a95fb19b
+
+2. https://clockify.me/shared/61b66f1d33d0bb38a95fb19d
+
+- Tiempo ordenado por tareas
+
+![](images/Screenshot_4.png)
+
+
+- Estimacion inicial por tareas
+
 - Comparación temporal
 
 **[⬆ back to top](#tabla-de-contenidos)**
