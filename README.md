@@ -72,8 +72,13 @@ De esa forma **Hugo**, un generador de sitios estáticos, leerá los ficheros Ma
 
 Teniendo el esquema JSON y el scrapping del tutor en la BBDD, desde Python convertimos esos documentos en Markdown para que Hugo pueda pasarlos a HTML en el Site que genere automáticamente.
 
+Un esquema de lo que recorre la aplicación:
+
 ![](images/Screenshot_2.png)
 
+Diagrama de componentes de este proyecto:
+
+![](images/Screenshot_3.png)
 
 
 El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y con la ayuda de una de sus plantillas [Hugo Themes Showcase](https://themes.gohugo.io/).
