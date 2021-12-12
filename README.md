@@ -12,7 +12,7 @@
 1. [Metodologías](#Metodologías)
 1. [Análisis](#Análisis)
 1. [Diseño](#Diseño)
-1. [Arquitectura de la aplicacion](#Arquitectura-de-la-aplicacion)
+1. [Arquitectura de la aplicación](#Arquitectura-de-la-aplicación)
 1. [Pruebas](#Pruebas)
 1. [Dificultades](#Dificultades)
 1. [Comparación temporal](#Comparación-temporal)
