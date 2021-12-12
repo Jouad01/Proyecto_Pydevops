@@ -3,6 +3,7 @@ author = 'BobaFet'
 title = 'T-70 X-Wing'
 date = '17-08-2002'
 feature_image = 'https://lumiere-a.akamaihd.net/v1/images/resistance-x-wing_9433981f.jpeg?region=0%2C0%2C1560%2C878&width=768'
+tags = ['Gama: baja']
 +++
 <!--more--> 
 modelo: T-70 X-Wing

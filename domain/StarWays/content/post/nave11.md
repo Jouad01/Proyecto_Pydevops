@@ -3,6 +3,7 @@ author = 'BobaFet'
 title = 'Y-Wing'
 date = '17-08-2002'
 feature_image = 'https://lumiere-a.akamaihd.net/v1/images/resistance-ywing-main_10b5e63d.jpeg?region=0%2C0%2C1280%2C720&width=768'
+tags = ['Gama: baja']
 +++
 <!--more--> 
 modelo: Y-Wing

@@ -3,6 +3,7 @@ author = 'BobaFet'
 title = 'Neimoidian Escort Shuttle'
 date = '17-08-2002'
 feature_image = 'https://lumiere-a.akamaihd.net/v1/images/neimoidian_escort_shuttle_7602d574.jpeg?region=0%2C6%2C1433%2C806&width=768'
+tags = ['Gama: media']
 +++
 <!--more--> 
 modelo: Neimoidian Escort Shuttle
