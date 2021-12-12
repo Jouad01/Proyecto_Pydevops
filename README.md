@@ -31,7 +31,7 @@ De esa forma **Hugo**, un generador de sitios estáticos, leerá los ficheros Ma
 
 ## Metodologías
 
-La metodología más cercana al procedimiento que se ha seguido en este trabajo vendría siendo la **metodología Scrum** ya que siendo una metodología ágil, tiene como finalidad la entrega de valor en períodos cortos de tiempo y estamos más familiarizada con ella. 
+La metodología más cercana al procedimiento que se ha seguido en este trabajo vendría siendo la **metodología Scrum** ya que siendo una metodología ágil, tiene como finalidad la entrega de valor en períodos cortos de tiempo, además estamos más familiarizados con ella. 
 
 Hemos contado con un Product Owner y haciendo uso de _sprints_ van respaldadas dos herramientas claves en el nuestro Scrum: _el product backlog_ y _sprint backlog_.
 
@@ -46,7 +46,7 @@ El sprint planning no cambia durante el sprint, solo cambia el plan para poder d
 
 ## Análisis
 
-Con el software completo desarrollado, el usuario, como una de las partes interesadas, podrá añadir, actualizar o eliminar un ítem de la base de datos y solo habrá que lanzar este sistema y la web se actualizará de manera automática con los nuevos ítems.
+Con el software desarrollado por completo, el usuario, como una de las partes interesadas, podrá añadir, actualizar o eliminar un ítem de la base de datos y solo habrá que lanzar este sistema y la web se actualizará de manera automática con los nuevos ítems.
 
 Una vez acordado el esquema JSON que se aplicará a la BBDD, el tutor tendrá acceso a esa BBDD para poder hacer un CRUD sobre el stock de items.
 
@@ -82,10 +82,14 @@ El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y c
 - Python 3
 - CSS3
 - HTML5
-- MongoAtla
+- MongoAtlas
 - Markdown 
 - os
 - Hugo
+
+Falta _Backend_
+
+Falta _Frondend_
 
 
 **[⬆ back to top](#tabla-de-contenidos)**
@@ -111,7 +115,8 @@ _Más adelante_
 ## Comparación temporal
 
 - Estimacion inicial por tareas
-- Estimación real (Clickify)
+- Estimación real (Clockify)
+- Comparación temporal
 
 **[⬆ back to top](#tabla-de-contenidos)**
 
