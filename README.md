@@ -125,6 +125,10 @@ _Más adelante_
 
 2. https://clockify.me/shared/61b66f1d33d0bb38a95fb19d
 
+
+Nota: Faltan 20 horas aproximadamente que se han invertido al inicio del proyecto y no se han
+podido añadir al Clockify.
+
 - Tiempo ordenado por tareas
 
 ![](images/Screenshot_4.png)
