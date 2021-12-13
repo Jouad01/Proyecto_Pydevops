@@ -10,7 +10,7 @@ from domain.src.acceso_a_datos.conector_BBDD import conector_cluster
 from domain.src.acceso_a_datos.conector_BBDD import acceder_BBDD
 
 
-mongo_db_url = 'mongodb+srv://devops:12345@proyectdevops.gk2qp.mongodb.net/?retryWrites=true&w=majority'
+mongo_db_url = 'mongodb+srv://devops:12345@proyectoPydevops.gk2qp.mongodb.net/?retryWrites=true&w=majority'
 # Llamamos a todas las funciones para conectarnos con mongodb
 
 def proyecto_pydevops(mongo_db_url):
