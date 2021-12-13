@@ -6,4 +6,4 @@ date = "2019-11-03"
 author = ""
 +++
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfO-XSNyK7DbN4_EOXsGdXYAyGbaupFB7bGidqsR8Woi_kNTQ/viewform?embedded=true" width="640" height="1800" frameborder="0" marginheight="0" marginwidth="0">S&#39;està carregant…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfO-XSNyK7DbN4_EOXsGdXYAyGbaupFB7bGidqsR8Woi_kNTQ/viewform?embedded=true" width="100%" height="1800" frameborder="0" marginheight="0" marginwidth="0">S&#39;està carregant…</iframe>

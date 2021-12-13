@@ -121,20 +121,14 @@ _Más adelante_
 
 - Estimación real (Clockify)
 
-1. https://clockify.me/shared/61b66dbc33d0bb38a95fb19b
+![](images/Clockify_Time_Report-1.png)
 
-2. https://clockify.me/shared/61b66f1d33d0bb38a95fb19d
+- Estimación por tareas
 
+![](images/Clockify_Time_Report-2.png)
 
 Nota: Faltan 20 horas aproximadamente que se han invertido al inicio del proyecto y no se han
 podido añadir al Clockify.
-
-- Tiempo ordenado por tareas
-
-![](images/Screenshot_4.png)
-
-
-- Estimacion inicial por tareas
 
 - Comparación temporal
 

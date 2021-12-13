@@ -12,7 +12,7 @@ marca:  Astilleros de Propulsores Kuat
 
 gama: Alta
 
-tasa: 1250
+tasa: 1500
 
 color: Blanco
 
