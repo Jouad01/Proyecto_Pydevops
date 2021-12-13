@@ -1,0 +1,16 @@
+VS Code 
+venv/
+__pycache__/
+posts/
+.vscode/
+=======
+..vscode
+/.idea/
+venv/
+__pycache__/
+.idea/Proyecto_Pydevops.iml
+
+credenials.json
+naves.json
+token.json
+credentials.json

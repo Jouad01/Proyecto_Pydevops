@@ -1,3 +1,11 @@
++++
+title = "About"
+description = "Test"
+date = "2019-02-28" 
+author = "Jouad and Arturo"
+feature_image = ""
++++
+
 # Proyecto_Pydevops 
 
 >En este repositorio se encuentra nuestro proyecto pydevops, que ha sido fruto del trabajo del primer trimeste de _Formación Profesional de Desarrollo Web_.
@@ -50,7 +58,7 @@ Con el software desarrollado por completo, el usuario, como una de las partes in
 
 Una vez acordado el esquema JSON que se aplicará a la BBDD, el tutor tendrá acceso a esa BBDD para poder hacer un CRUD sobre el stock de items.
 
-![](images/Screenshot_1.png)
+![](/images/Screenshot_1.png)
 
 
 **[⬆ back to top](#tabla-de-contenidos)**
@@ -74,11 +82,11 @@ Teniendo el esquema JSON y el scrapping del tutor en la BBDD, desde Python conve
 
 Un esquema de lo que recorre la aplicación:
 
-![](images/Screenshot_2.png)
+![](/images/Screenshot_2.png)
 
 Diagrama de componentes de este proyecto:
 
-![](images/Screenshot_3.png)
+![](/images/Screenshot_3.png)
 
 
 El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y con la ayuda de una de sus plantillas [Hugo Themes Showcase](https://themes.gohugo.io/).
@@ -88,17 +96,13 @@ El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y c
 
 - Python 3
 - CSS3
-- SCSS
 - HTML5
 - MongoAtlas
 - Markdown 
 - Hugo
 - os
-- Venv
 - Pymongo
-- Google excel & formularios
-- Google cloud
-- 
+
 
 
 **[⬆ back to top](#tabla-de-contenidos)**
@@ -125,14 +129,12 @@ _Más adelante_
 
 - Estimación real (Clockify)
 
-![](images/Clockify_Time_Report-1.png)
+https://clockify.me/shared/61b66dbc33d0bb38a95fb19b
 
-- Estimación por tareas
 
-![](images/Clockify_Time_Report-2.png)
+- Estimacion inicial por tareas
 
-Nota: Faltan 20 horas aproximadamente que se han invertido al inicio del proyecto y no se han
-podido añadir al Clockify.
+- Comparación temporal
 
 **[⬆ back to top](#tabla-de-contenidos)**
 
@@ -161,5 +163,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
