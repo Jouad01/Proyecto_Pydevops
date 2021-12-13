@@ -88,13 +88,17 @@ El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y c
 
 - Python 3
 - CSS3
+- SCSS
 - HTML5
 - MongoAtlas
 - Markdown 
 - Hugo
 - os
+- Venv
 - Pymongo
-
+- Google excel & formularios
+- Google cloud
+- 
 
 
 **[⬆ back to top](#tabla-de-contenidos)**
