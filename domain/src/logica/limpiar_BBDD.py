@@ -2,6 +2,9 @@
 def limpiar_BBDD(base_de_datos):
     naves = []
     for nave in base_de_datos:
-        nave.pop("_id")
+        try:
+            nave.pop("_id")
+        except:
+            ""
         naves.append(nave)
     return naves

@@ -2,8 +2,9 @@
 import sys
 
 sys.path.append(".")
+sys.path.append(".")
 from domain.test.logica.base_de_datos_ficticia import naves
-from logica.indexador_naves import indexador_naves
+from domain.src.logica.indexador_naves import indexador_naves
 
 
 # Tres funciones para crear automáticamente el markdown como nosotros queremos
@@ -33,7 +34,7 @@ def insert_list(file, nave, element, nueva_linea="\n"):
     file.write(nueva_linea)
 
 
-# Con esta función podemos generar las imágenes dentro del markdown.
+# Con esta función creamos las lineas de texto, e ignoramos las imagenes
 def insert_element(nave, file, element, nueva_linea="\n"):
     if element[0:3] == "img":
         ""
@@ -50,7 +51,6 @@ def insert_metadatos(nave, file, nueva_linea ="\n"):
     file.write("+++" + nueva_linea)
     file.write("<!--more--> " + nueva_linea)
         
-
-# Eliminar esto
+# test improvisado
 if __name__ == "__main__":
     creadorMD(naves)

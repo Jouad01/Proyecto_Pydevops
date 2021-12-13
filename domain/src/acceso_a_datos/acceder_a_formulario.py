@@ -8,19 +8,18 @@ from google.oauth2.credentials import Credentials
 
 import json
 
-# https://developers.google.com/sheets/api/guides/authorizing
+
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
-# The ID of a spreadsheet.
+# El ID de la hoja de calculos
 SPREADSHEET_ID = '1nY9qc-c7p-kbeTCwKUHdB2DeCKKrYJniFLjN00MNQU8'
-# El rango a solicitar en notacion A1
-# items == hoja completa, rango = Items!B1:F2
+
+#Letras entre las que se encuentran los datos buscados en mi hoja de calculo
 RANGE_NAME = '!B:I'
 
 
-# El fichero credentials.json es el que descargamos
-# mediante la consola de Google Cloud
+# El fichero credentials.json es el que descargamos mediante la consola de Google Cloud
 
 def acceder_a_formulario():
 
@@ -81,8 +80,7 @@ def acceder_a_formulario():
         # Diccionario con partes de la bici y su valor
         # para este modelo
         document = dict(zip(columnNames, lastRowValues))
-        # Log en terminal
-        print(json.dumps(document))
+
         # Crer documento JSON en un archivo para 
         # cargar en MongoATLAS
         json.dump(document, fp=open('naves.json', 'w'), indent=4)
