@@ -1,10 +1,14 @@
 # Importante usar 'import sys' cuando vamos a importar ficheros de otros directorios
 import sys
-
+import shutil
 sys.path.append(".")
 sys.path.append(".")
 from domain.test.logica.base_de_datos_ficticia import naves
 from domain.src.logica.indexador_naves import indexador_naves
+
+import os
+import glob
+
 
 
 # Tres funciones para crear automáticamente el markdown como nosotros queremos
@@ -13,7 +17,15 @@ from domain.src.logica.indexador_naves import indexador_naves
 
 def creadorMD(naves, nueva_linea="\n"):
     siguiente_nave = indexador_naves()
+    try:
+        shutil.rmtree('domain/src/StarWays/content/post')
+    except:
+        ""
+    os.mkdir('domain/src/StarWays/content/post')
+
+
     for nave in naves:
+        
         # Especificamos como queremos que sea nuestro hugo generado
         file = open("domain/src/StarWays/content/post/" + siguiente_nave(), "w", encoding="utf8")
         insert_metadatos(nave, file)
