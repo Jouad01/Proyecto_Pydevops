@@ -1,3 +1,4 @@
+
 from __future__ import print_function
 import os.path
 from googleapiclient.discovery import build
@@ -21,7 +22,7 @@ RANGE_NAME = '!B:I'
 # El fichero credentials.json es el que descargamos
 # mediante la consola de Google Cloud
 
-def main():
+def acceder_a_formulario():
 
     ####  configuracion del token de acceso a la API de Gooogle Sheet ####
 
@@ -88,4 +89,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    acceder_a_formulario()

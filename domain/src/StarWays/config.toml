@@ -9,6 +9,7 @@ enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 authorAvatar = "static/images/profile_image.jpeg"
 theme = "casper3"
+disableHugoGeneratorInject = "true"
 
 [params]
   facebook = "https://facebook.com"
@@ -77,3 +78,5 @@ series = "series"
   [services.twitter]
     disableInlineCSS = true
 
+[markup.goldmark.renderer]
+  unsafe = true

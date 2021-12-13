@@ -13,7 +13,7 @@ SAMPLE_SPREADSHEET_ID = '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms'
 SAMPLE_RANGE_NAME = 'Class Data!A2:E'
 
 
-def main():
+def quickstart():
     """Shows basic usage of the Sheets API.
     Prints values from a sample spreadsheet.
     """
@@ -53,4 +53,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    quickstart()

@@ -2,9 +2,8 @@
 import sys
 
 sys.path.append(".")
-from domain.logica.test.base_de_datos_ficticia import naves
-from domain.logica.src.indexador_naves import indexador_naves
-import os
+from domain.test.logica.base_de_datos_ficticia import naves
+from logica.indexador_naves import indexador_naves
 
 
 # Tres funciones para crear automáticamente el markdown como nosotros queremos
@@ -15,7 +14,7 @@ def creadorMD(naves, nueva_linea="\n"):
     siguiente_nave = indexador_naves()
     for nave in naves:
         # Especificamos como queremos que sea nuestro hugo generado
-        file = open("domain/StarWays/content/post/" + siguiente_nave(), "w", encoding="utf8")
+        file = open("domain/src/StarWays/content/post/" + siguiente_nave(), "w", encoding="utf8")
         insert_metadatos(nave, file)
 
         for element in nave:
@@ -53,4 +52,5 @@ def insert_metadatos(nave, file, nueva_linea ="\n"):
         
 
 # Eliminar esto
-creadorMD(naves)
+if __name__ == "__main__":
+    creadorMD(naves)
