@@ -130,8 +130,6 @@ _Más adelante_
 Nota: Faltan 20 horas aproximadamente que se han invertido al inicio del proyecto y no se han
 podido añadir al Clockify.
 
-- Comparación temporal
-
 **[⬆ back to top](#tabla-de-contenidos)**
 
 ---
