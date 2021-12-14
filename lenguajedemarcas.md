@@ -1,6 +1,13 @@
-# hugoBasicExample
+# StarWays 
 
-This repository offers an example site for [Hugo](https://gohugo.io/) and also it provides the default content for demos hosted on the [Hugo Themes Showcase](https://themes.gohugo.io/).
+>El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y con la ayuda de una de sus plantillas [Hugo Themes Showcase](https://themes.gohugo.io/).
+
+Esta página web muestra los ficheros markdown que Hugo ha generado en forma de HTML.
+
+La plantilla de Hugo trae incorporado tanto HTML como scss, que es una extensión de css.
+
+Hemos editado el fichero 'toml' para cambiar los datos de la plantilla, además de editar el scss añadiendo, entre otras cosas, las _medias querys_.
+
 
 # Using
 
