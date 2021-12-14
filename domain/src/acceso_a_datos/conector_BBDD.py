@@ -17,7 +17,10 @@ def conector_cluster(mongo_db_url):
 def acceder_BBDD(client):
     try:
         base_de_datos = client.ProyectoPydevops.datos_naves.find()
-        return base_de_datos
+        naves = []
+        for item in base_de_datos:
+            naves.append(item)
+        return naves
     except:
         print("el servidor esta caido o la url es incorrecta")
         return False

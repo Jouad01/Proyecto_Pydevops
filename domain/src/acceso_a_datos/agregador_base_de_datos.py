@@ -2,7 +2,7 @@ import pymongo
 import json
 def agregador_base_de_datos(nueva_nave):
     try:
-        myclient = pymongo.MongoClient("mongodb+srv://devops:12345@proyectopydevops.gk2qp.mongodb.net/ProyectoPydevops?retryWrites=true&w=majority")
+        myclient = pymongo.MongoClient("mongodb+srv://devops:12345@proyectopydevops.gk2qp.mongodb.net/ProyectoPydevops?retryWrites=true&w=majority", )
         naves = myclient.ProyectoPydevops.datos_naves
         with open(nueva_nave) as json_file: 
             nave = json.load(json_file) 
