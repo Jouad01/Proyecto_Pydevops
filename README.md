@@ -81,7 +81,7 @@ Diagrama de componentes de este proyecto:
 ![](images/Screenshot_3.png)
 
 
-El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y con la ayuda de una de sus plantillas [Hugo Themes Showcase](https://themes.gohugo.io/).
+El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y gracias a la ayuda de una de sus plantillas [Hugo Themes Showcase](https://themes.gohugo.io/).
 
 
 ### Tencologías utilizadas
@@ -94,11 +94,9 @@ El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y c
 - Markdown 
 - Hugo
 - os
-- Venv
 - Pymongo
 - Google excel & formularios
 - Google cloud
-- 
 
 
 **[⬆ back to top](#tabla-de-contenidos)**
