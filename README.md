@@ -11,12 +11,13 @@
 1. [Introducción](#Introducción)
 1. [Metodologías](#Metodologías)
 1. [Análisis](#Análisis)
-1. [Diseño](#Diseño)
-1. [Arquitectura de la aplicación](#Arquitectura-de-la-aplicación)
+1. [Diseño y arquitectura de la aplicación](#diseño-y-arquitectura-de-la-aplicación)
+1. [Implementación](#Implementación)
 1. [Pruebas](#Pruebas)
-1. [Dificultades](#Dificultades)
 1. [Comparación temporal](#Comparación-temporal)
-1. [Licencia](#licencia)
+1. [Dificultades](#Dificultades)    
+1. [Futuras mejoras](#Futuras-mejoras)
+1. [Licencia](#Licencia)
 
 --- 
 
@@ -31,14 +32,16 @@ De esa forma **Hugo**, un generador de sitios estáticos, leerá los ficheros Ma
 
 ## Metodologías
 
-La metodología más cercana al procedimiento que se ha seguido en este trabajo vendría siendo la **metodología Scrum** ya que siendo una metodología ágil, tiene como finalidad la entrega de valor en períodos cortos de tiempo, además estamos más familiarizados con ella. 
+El marco de trabajo más cercano al procedimiento que se ha seguido en este proyecto vendría siendo la **metodología Scrum** ya que siendo una metodología ágil, tiene como finalidad la entrega de valor en períodos cortos de tiempo, además estamos más familiarizados con ella. 
 
-Hemos contado con un Product Owner y haciendo uso de _sprints_ van respaldadas dos herramientas claves en el nuestro Scrum: _el product backlog_ y _sprint backlog_.
+Se ha contado con un Product Owner y haciendo uso de _sprints_ van respaldadas dos herramientas claves en el nuestro Scrum: _el product backlog_ y _sprint backlog_.
 
  - El **Product Backlog**, viene siendo las tareas que engloba todo el proyecto, una biblioteca que nos incluye todas las tareas que debemos realizar con el tiempo de desarrollo estimado. Las tareas que están más arriba deben de ser las de mayor prioridad.
 
 - El **Sprint Backlog** es el grupo de tareas del product backlog que el equipo de desarrollo elige en el sprint planning junto con el plan para poder desarrollarlas. 
 El sprint planning no cambia durante el sprint, solo cambia el plan para poder desarrollarlas.
+
+Pero, a medida que ha ido avanzando el trabajo, se ha dejado de lado esta para movernos más a la metodología prototipado, ya que se ha ido realizando una mejora individual continuamente en el proyecto.
 
 **[⬆ back to top](#tabla-de-contenidos)**
 
@@ -50,27 +53,32 @@ Con el software desarrollado por completo, el usuario, como una de las partes in
 
 Una vez acordado el esquema JSON que se aplicará a la BBDD, el tutor tendrá acceso a esa BBDD para poder hacer un CRUD sobre el stock de items.
 
+### Diagrama casos de uso
+
 ![](images/Screenshot_1.png)
+
+### Tabla
+
+Algunas de las tecnologías que hemos utilizado y sus respectivos requisitos. 
+
+|                    	| VS Code 	| HUGO 	| Google Cloud 	| MongoAtlas 	|
+|--------------------	|---------	|------	|--------------	|------------	|
+| Markdown           	| X       	|      	|              	|            	|
+| Python 3           	| X       	|      	|              	|            	|
+| HTML y CSS         	| X       	| X    	|              	|            	|
+| BBDD               	|         	|      	|              	| X          	|
+| Google Formularios 	|         	|      	| X            	|            	|
 
 
 **[⬆ back to top](#tabla-de-contenidos)**
 
 --- 
-## Diseño
 
-Teniendo el esquema JSON y el scrapping del tutor en la BBDD, desde Python convertimos esos documentos en Markdown para que Hugo pueda pasarlos a HTML en el Site que genere automáticamente.
+## Diseño y Arquitectura de la aplicación
 
+Teniendo el esquema JSON y el scrapping del tutor en la BBDD, desde Python se convierten esos documentos a Markdown para que Hugo pueda pasarlos a HTML en el Site que genere automáticamente.
 
-**[⬆ back to top](#tabla-de-contenidos)**
-
----
-
-## Arquitectura de la aplicación
-
-El objetivo de este proyecto es desarrollar una aplicación Python que sea capaz de extraer los datos de **MongoAtlas** y, teniendo un esquema de los documentos **JSON**, convertirlos a **Markdown**.
-De esa forma **Hugo**, un generador de sitios estáticos, leerá los ficheros Markdown y los convertirá en documentos HTML para su página web.
-
-Teniendo el esquema JSON y el scrapping del tutor en la BBDD, desde Python convertimos esos documentos en Markdown para que Hugo pueda pasarlos a HTML en el Site que genere automáticamente.
+El usuario puede introducir los datos que necesite desde el formulario que el Site proporciona, una vez hecho, esos datos podrán generarse en la BBDD.
 
 Un esquema de lo que recorre la aplicación:
 
@@ -80,6 +88,30 @@ Diagrama de componentes de este proyecto:
 
 ![](images/Screenshot_3.png)
 
+
+El esquema que se ha utilizado en la BBDD:
+
+~~~
+nave: {
+    modelo : string,
+    marca : string,
+    gama : string,
+    tasa: int,                   
+    color : string,
+    plazas : int,
+    características: array
+    }
+~~~
+
+Una vez que existen unos datos en la BBDD, en este caso, scrappeados por el tutor, se visualiza de la siguiente forma:
+
+![](images/Screenshot_5.png)
+
+**[⬆ back to top](#tabla-de-contenidos)**
+
+---
+
+## Implementación
 
 El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y gracias a la ayuda de una de sus plantillas [Hugo Themes Showcase](https://themes.gohugo.io/).
 
@@ -98,20 +130,11 @@ El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y g
 - Google excel & formularios
 - Google cloud
 
-
 **[⬆ back to top](#tabla-de-contenidos)**
 
 ---
 
 ## Pruebas
-
-_Más adelante_
-
-**[⬆ back to top](#tabla-de-contenidos)**
-
----
-
-## Dificultades
 
 _Más adelante_
 
@@ -131,6 +154,22 @@ _Más adelante_
 
 Nota: Faltan 20 horas aproximadamente que se han invertido al inicio del proyecto y no se han
 podido añadir al Clockify.
+
+**[⬆ back to top](#tabla-de-contenidos)**
+
+---
+
+## Dificultades
+
+_Más adelante_
+
+**[⬆ back to top](#tabla-de-contenidos)**
+
+---
+
+## Futuras mejoras
+
+_Más adelante_
 
 **[⬆ back to top](#tabla-de-contenidos)**
 
