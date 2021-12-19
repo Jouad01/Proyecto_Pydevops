@@ -1,6 +1,6 @@
 # Proyecto_Pydevops 
 
->En este repositorio se encuentra nuestro proyecto pydevops, que ha sido fruto del trabajo del primer trimeste de _Formación Profesional de Desarrollo Web_.
+>En este repositorio se encuentra nuestro proyecto pydevops, que ha sido fruto del trabajo del primer trimeste de _CFGS de Desarrollo Web Dual_.
 
 [![python version](https://img.shields.io/badge/python-v3.9-blue)](https://www.python.org/downloads/)
 [![status application](https://img.shields.io/badge/status-stable-brightgreen)](https://github.com/Jouad01/Proyecto_Pydevops)
@@ -25,6 +25,8 @@
 
 La premisa principal de este proyecto es desarrollar una aplicación Python que sea capaz de extraer los datos de **MongoAtlas** y, teniendo un esquema de los documentos **JSON**, convertirlos a **Markdown**.
 De esa forma **Hugo**, un generador de sitios estáticos, leerá los ficheros Markdown y los convertirá en documentos HTML para su página web.
+
+Así el usuario podrá añadir, actualizar o eliminar un item de la base de datos de forma automática y sin necesidad de acceder al Wordpress.
 
 **[⬆ back to top](#tabla-de-contenidos)**
 
@@ -80,16 +82,16 @@ Teniendo el esquema JSON y el scrapping del tutor en la BBDD, desde Python se co
 
 El usuario puede introducir los datos que necesite desde el formulario que el Site proporciona, una vez hecho, esos datos podrán generarse en la BBDD.
 
-Un esquema de lo que recorre la aplicación:
+### Un esquema de lo que recorre la aplicación:
 
 ![](images/Screenshot_2.png)
 
-Diagrama de componentes de este proyecto:
+### Diagrama de componentes de este proyecto:
 
 ![](images/Screenshot_3.png)
 
 
-El esquema que se ha utilizado en la BBDD:
+### El esquema que se ha utilizado en la BBDD:
 
 ~~~
 nave: {
@@ -129,6 +131,28 @@ El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y g
 - Pymongo
 - Google excel & formularios
 - Google cloud
+
+### Backend y Frontend
+
+El diagrama de comportamientos en **[⬆ diagrama comportamientos](#diseño-y-arquitectura-de-la-aplicación)**
+es un ejemplo más explícito de como funciona este backend.
+
+Una vez tenemos los datos en la BBDD creamos un script que pase esos datos de json a markdwon desde Python, después hay que tener otro script que conecte con esa BBDD, desde equipos Windows puede tener más complicaciones. 
+Con Hugo instalado y con una plantilla de la página a mano, se asegura que esté en la misma estructura de directorios y se arranca o bien con el comando _Hugo Server_ o bien mediante un script de python. De esta forma se encargará de pasar a HTML esos ficheros markdown. 
+
+![](images/Screenshot_7.png)
+
+
+![](images/Screenshot_6.png)
+
+Cuando se visualiza el contenido de la página web se puede comprobar como esos datos que antes eran un json de la BBDD pasan de ser markdown a HTML.
+
+![](images/Screenshot_8.png)
+
+![](images/Screenshot_9.png)
+
+![](images/Screenshot_10.png)
+
 
 **[⬆ back to top](#tabla-de-contenidos)**
 
