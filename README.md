@@ -132,16 +132,18 @@ El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y g
 - Google excel & formularios
 - Google cloud
 
-### Backend y Frontend
+### BackEnd y FrontEnd
 
 El **[⬆ diagrama comportamientos](#diseño-y-arquitectura-de-la-aplicación)**
-es un ejemplo más explícito de como funciona este backend.
+es un ejemplo más explícito de como funciona esta aplicacioón.
 
 Una vez tenemos los datos en la BBDD creamos un script que pase esos datos de json a markdwon desde Python, después hay que tener otro script que conecte con esa BBDD, desde equipos Windows puede tener más complicaciones.
 
 Con Hugo instalado y con una plantilla de la página a mano, se asegura que esté en la misma estructura de directorios y se arranca o bien con el comando _Hugo Server_ o bien mediante un script de python. 
 
-De esta forma se encargará de pasar a HTML esos ficheros markdown. 
+Hay que tener un fichero que conecte todos esos ficheros y ejecutarlo, de esta forma se encargará de crear esos markdowns dentro del directorio de Hugo y este pasará a HTML esos markdown. 
+
+En este proyecto ese fichero se llama _actualizar_hugo.py_
 
 ![](images/Screenshot_7.png)
 
@@ -159,14 +161,14 @@ Cuando se visualiza el contenido de la página web se puede comprobar como esos 
 
 ### CRUD
 
-A la hora de incorporar el CRUD, las funciones básicas de cualquier base de datos, se ha hecho através de formularios de google y no por consola.
+A la hora de implementar el CRUD, las funciones básicas de cualquier base de datos, se ha hecho através de formularios de google y no por consola.
 
 Los pasos son los siguientes:
 
 1. Crear un formulario básico de Google que esté enlanzado a un google excel
 2. Tres scripts en Python:
-    - Uno para ejecutar el formulario en la página web
-    - Otro para conectarse con la base de datos
+    - Uno para ejecutar el formulario en la página web.
+    - Otro para conectarse con la base de datos.
     - Y uno último para el excel.
 
 
@@ -176,14 +178,6 @@ El usuario podrá introducir unos datos que se visualizarán en el excel y podr�
 
 ![](images/Screenshot_12.png)
 
-
-**[⬆ back to top](#tabla-de-contenidos)**
-
----
-
-## Pruebas
-
-_Más adelante_
 
 **[⬆ back to top](#tabla-de-contenidos)**
 
@@ -208,7 +202,13 @@ podido añadir al Clockify.
 
 ## Dificultades
 
-_Más adelante_
+Han habido varios contratiempos y disgustos a la hora de sacar este proyecto adelante, pero para ser breves
+es mejor tener etiquetar los puntos claves.
+
+- Hugo, al ser una tecnología nueva, ha llevado varias horas familiarizarse con ella.
+- Formularios, nunca se habían usado de esta misma manera a la hora de hacer el CRUD.
+- Pequeños fallos de compatibilidad con Windows a la hora de usar diferentes tecnologías.
+- Falta de tiempo, es el principal enemigo de este trabajo. Han faltado fácilmente una o dos semanas más para abordarlo de mejor forma.
 
 **[⬆ back to top](#tabla-de-contenidos)**
 
@@ -216,7 +216,12 @@ _Más adelante_
 
 ## Futuras mejoras
 
-_Más adelante_
+Algunas de las mejoras que se tienen en cuenta para más adelante son:
+
+- Ejecutar Hugo desde un script.
+- Implementar tox con pytest, coverage, black y bandit.
+
+Este apartado puede ir actualizándose con el tiempo.
 
 **[⬆ back to top](#tabla-de-contenidos)**
 
