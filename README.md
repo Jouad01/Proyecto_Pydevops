@@ -134,11 +134,14 @@ El site generado se ha creado usando el framework [Hugo](https://gohugo.io/) y g
 
 ### Backend y Frontend
 
-El diagrama de comportamientos en **[⬆ diagrama comportamientos](#diseño-y-arquitectura-de-la-aplicación)**
+El **[⬆ diagrama comportamientos](#diseño-y-arquitectura-de-la-aplicación)**
 es un ejemplo más explícito de como funciona este backend.
 
-Una vez tenemos los datos en la BBDD creamos un script que pase esos datos de json a markdwon desde Python, después hay que tener otro script que conecte con esa BBDD, desde equipos Windows puede tener más complicaciones. 
-Con Hugo instalado y con una plantilla de la página a mano, se asegura que esté en la misma estructura de directorios y se arranca o bien con el comando _Hugo Server_ o bien mediante un script de python. De esta forma se encargará de pasar a HTML esos ficheros markdown. 
+Una vez tenemos los datos en la BBDD creamos un script que pase esos datos de json a markdwon desde Python, después hay que tener otro script que conecte con esa BBDD, desde equipos Windows puede tener más complicaciones.
+
+Con Hugo instalado y con una plantilla de la página a mano, se asegura que esté en la misma estructura de directorios y se arranca o bien con el comando _Hugo Server_ o bien mediante un script de python. 
+
+De esta forma se encargará de pasar a HTML esos ficheros markdown. 
 
 ![](images/Screenshot_7.png)
 
@@ -152,6 +155,26 @@ Cuando se visualiza el contenido de la página web se puede comprobar como esos 
 ![](images/Screenshot_9.png)
 
 ![](images/Screenshot_10.png)
+
+
+### CRUD
+
+A la hora de incorporar el CRUD, las funciones básicas de cualquier base de datos, se ha hecho através de formularios de google y no por consola.
+
+Los pasos son los siguientes:
+
+1. Crear un formulario básico de Google que esté enlanzado a un google excel
+2. Tres scripts en Python:
+    - Uno para ejecutar el formulario en la página web
+    - Otro para conectarse con la base de datos
+    - Y uno último para el excel.
+
+
+El usuario podrá introducir unos datos que se visualizarán en el excel y podrán formar parte de la BBDD.
+
+![](images/Screenshot_11.png)
+
+![](images/Screenshot_12.png)
 
 
 **[⬆ back to top](#tabla-de-contenidos)**
