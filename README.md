@@ -172,11 +172,42 @@ Los pasos son los siguientes:
     - Y uno último para el excel.
 
 
-El usuario podrá introducir unos datos que se visualizarán en el excel y podrán formar parte de la BBDD.
+El usuario podrá introducir unos datos que se visualizarán en el excel y podrán formar parte de la BBDD una vez así lo indique desde la máquina.
 
 ![](images/Screenshot_11.png)
 
 ![](images/Screenshot_12.png)
+
+A la hora de actualizar o borrar, el usuario deberá hacerlo através de consola en estos ficheros.
+
+![](images/Screenshot_18.png)
+
+
+**[⬆ back to top](#tabla-de-contenidos)**
+
+---
+
+## Pruebas
+
+Algunas de las comprobaciones que se han ido haciendo. 
+
+### Comprobación Testing
+
+![](images/Screenshot_14.png)
+
+### Estrcuctura de directorios
+
+![](images/Screenshot_13.png)
+
+### Comprobación del fichero principal 
+
+![](images/Screenshot_15.png)
+
+### Git graph y gitflow
+
+![](images/Screenshot_16.png)
+
+![](images/Screenshot_17.png)
 
 
 **[⬆ back to top](#tabla-de-contenidos)**
@@ -220,6 +251,7 @@ Algunas de las mejoras que se tienen en cuenta para más adelante son:
 
 - Ejecutar Hugo desde un script.
 - Implementar tox con pytest, coverage, black y bandit.
+- Mejorar CRUD
 
 Este apartado puede ir actualizándose con el tiempo.
 
